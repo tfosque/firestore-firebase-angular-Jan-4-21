@@ -10,8 +10,6 @@ export class ItemsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    // console.log('data:', this.data)
-  }
+  ngOnInit(): void { }
 
 }
