@@ -1,0 +1,6 @@
+<div class="container">
+  <p>home works!</p>
+  <ng-container>
+    <app-items *ngFor="let item of members | async" [member]="item"></app-items>
+  </ng-container>
+</div>
